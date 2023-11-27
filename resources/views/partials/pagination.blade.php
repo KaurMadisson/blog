@@ -1,4 +1,5 @@
 @if ($paginator->hasPages())
+
     <div class="join">
         {{-- Previous Page Link --}}
         @if ($paginator->onFirstPage())
